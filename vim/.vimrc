@@ -9,7 +9,7 @@ endif
 
 set backspace=indent,eol,start	" typical backspace behavior
 
-set relativenumber		" show relative line numbers
+"set relativenumber		" show relative line numbers
 set number              " show absolute line number for current line
 
 set scrolloff=5         " keep set lines visible above or below cursor
@@ -20,7 +20,7 @@ set smartindent			" automatically indent lines based on file syntax
 set tabstop=4			" tab as set number of spaces (C language standard)
 set softtabstop=4		" tab behavior consistent with set number of spaces
 set shiftwidth=4		" each step of indentation as set number of spaces
-set noexpandtab			" insert spaces instead of actual Tab characters
+set expandtab			" insert spaces instead of actual Tab characters
 
 set ruler				" enable ruler (display cursor line and column)
 set showmode			" show current mode in status line
@@ -51,7 +51,7 @@ set wildmenu            " enable completion menu
 
 syntax on				" enable syntax highlighting
 
-colorscheme sorbet
+"colorscheme sorbet
 hi Search ctermbg=238 ctermfg=NONE	" search results color
 highlight ColorColumn ctermbg=236  " subtle colorcolumn color
 
